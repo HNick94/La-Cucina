@@ -1,0 +1,287 @@
+/*
+filename: [style_responsive.css]
+author: [NICK KIM]
+created: [21032021]
+last modified: [21052021]
+description: [index.php], [product.php], [about.php], [book.php], [enquire.php], [enhancements.php]
+*/
+
+/* style_responsive. css */
+/* media query for display: over 500 */
+
+@media screen and (min-width: 31.25em) {
+	
+	#menu ul li {
+		width: 33%;
+	}
+	#menu ul li a {
+		border: none;
+		border-right: 1px solid #bababa;
+	}
+	#menu ul li .topmenu {
+		border-bottom: 1px solid #bababa; 
+	}
+	#section1, #section2, #section3, #section4, #section5, #section6{
+		width: 40%;
+		
+	}
+	
+	#clicks {
+		padding-left: 4.5em;
+		
+	}
+
+	body {
+		min-width: 762px;
+	}
+	
+	/* product.php */
+	#lunch, #breakfast {
+		width: 30%;
+
+	}
+	#breakfast {
+		padding-left: 4em;
+	}
+	#lunch {
+		padding-right: 4em;
+	}
+	#newlist1{
+		clear: both;
+		padding-left: 3em;
+		padding-right: 3em;
+		font-size: 18px;
+	}
+
+	.h1{
+		font-size: 60px;
+	}
+	.brunchy{
+		font-size: 50px;
+	}
+	.lists, #width25 {
+		font-size: 12px;
+	}
+	#tablesp {
+		font-size: 20px;
+	}
+	
+	/* about.php */
+	.h1a {
+		font-size: 50px;
+	}
+	#we, #co, #ed, #li, #la, #si {
+	width:60%;
+	}
+	#me {
+	width: 18%;
+	padding: 10px;
+	margin-right: 2em;
+	border: 10px double white;
+	}
+	#table{
+		font-size: 13px;
+	}
+	
+	#right {
+		margin-right: 7.5em;
+	}
+	
+	/* book.php */
+	
+	
+	/* enquire.php */
+	
+
+	/* enhancements.php */
+	
+	
+}
+
+
+
+
+
+
+/* media query for display: under 500 */
+
+@media screen and (max-width: 31.25em) {
+	
+	header {
+		padding-top: 0;
+	}
+	
+	#header1 {
+		padding-bottom: 1.5em;
+	}
+	
+	#header1 .sns {
+		width: 1.2em;
+		
+	}
+	
+	#header1 .welcome {
+		font-size: 20px;
+	}
+	
+	#header1 #numb {
+		display: none;
+	}
+	
+	#header2 #h1{
+		font-size: 40px;
+		padding-top: 1em;
+		padding-left: .5em;
+		margin: 0 auto;
+		padding-right: .3em;
+	}
+	#athc .brbr {
+    display: none;
+	}
+	
+	#athc {
+		padding-right: 3em;
+	}
+
+	#menu ul li {
+		width: 50%;
+	}
+	#menu ul li a {
+		border: none;
+		border-right: 1px solid #bababa;
+		border-bottom: 1px solid #bababa; 
+		font-size: 15px;
+	}
+	#section1, #section2, #section3, #section4, #section5, #section6 {
+		margin: 0;
+		padding-bottom: 2em;
+		float: none;
+		width: 90%;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	.mainimg {
+		display: none;
+	}
+	body {
+		min-width: 321px;
+	}
+	
+	#clicks {
+		padding-left: 1.2em;
+	}
+	
+	footer {
+		font-size: 8px;
+	}
+	
+	/* product.php */
+	#lunch, #breakfast {
+		width: 100%;
+	}
+	#breakfast {
+		padding: 0;
+		margin: 0;
+	}
+	#lunch {
+		padding: 0;
+		margin: 0;
+	}
+	#clicks {
+		padding: 0;
+		margin: 0;
+	}
+	
+	#newlist1{
+		clear: both;
+		padding: 2em;
+		font-size: 18px;
+	}
+
+	.h1{
+		font-size: 35px;
+	}
+	#eat p {
+		font-size: 15px;
+	}
+	.brunchy{
+		font-size: 30px;
+	}
+	.lists, #width25 {
+		font-size: 12px;
+		padding-right: 3em;
+	}		
+	
+	#tablesp {
+		font-size: 13px;
+		
+	}
+	
+	/* about.php */
+	#me {
+		clear: both;
+		margin: 0 auto;
+		display: block;
+		float: none;
+		width: 50%;
+	}
+	
+	#we, #co, #ed, #li, #la, #si {
+		width:90%;
+		float: none;
+	}
+	
+	#right {
+		margin: 0 auto;
+		visibility: hidden;
+		font-size: 1px;
+		position: absolute;
+		bottom: 1px;
+	}
+	
+	.h1a {
+		font-size: 30px;
+	}
+	.h2 {
+		font-size: 20px;
+	}
+	.h3 {
+		font-size: 13px;
+	}
+	.h4 {
+		font-size: 12px;
+	}
+	#bodyab li, #bodyab section p{
+		font-size: 11px;
+	}
+	#bodyab table {
+		font-size: 9px;
+	}
+	
+	
+	/* book.php */
+	.left, .right {
+		width: 81%;
+		float: none;
+		clear:both;
+		margin: auto;
+		
+	}
+	#h2b {
+		font-size: 30px;
+		
+	}
+	
+	#semp {
+		font-size: 15px;
+		margin-left: 2em;
+		padding-right: 1em;
+	}
+	
+	/* enquire.php */
+	
+
+	/* enhancements.php */
+}

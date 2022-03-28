@@ -1,0 +1,640 @@
+/*
+filename: [style.css]
+author: [NICK KIM]
+created: [21032021]
+last modified: [21052021]
+description: [index.php], [product.php], [about.php], [book.php], [enquire.php], [enhancements.php]
+*/
+@font-face {
+	font-family: florsn;
+	src : url("fonts/florsn17.ttf");
+}
+@font-face {
+	font-family: Italiana;
+	src : url("fonts/Italiana-Regular.ttf");
+}
+@font-face {
+	font-family: Semplicita;
+	src : url("fonts/Semplicita Light.otf");
+}
+@font-face {
+	font-family: Italianno;
+	src : url("fonts/Italianno-Regular.ttf");
+}
+
+body {
+	font-family: Italiana, arial, sans-serif;
+	max-width: 1220px;
+	margin: 0 auto;
+	padding-top: 1.5em;
+	min-width: 1084px;
+}
+
+h1 {
+	font-variant: small-caps;
+	font-size: 50px;
+	font-family: Italiana, arial, sans-serif;
+}
+
+section .brunchy {
+	font-family: Italianno, arial, sans-serif;
+}
+
+article section h3 {
+	font-family:florsn;
+}
+
+#menu, .maj, footer{
+	font-family:florsn, arial, sans-serif;
+	}
+#menu {
+	padding-top: .8em;
+	padding-bottom: .8em;
+	padding-right: 2em;
+	background-color: #F6F6F6;
+}
+#menu ul {
+  display: table;
+  margin: 0 auto;
+}
+#menu ul li {
+
+	list-style: none;
+	float: left;
+	font-size: 135%;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	padding: 0.2em 0.6em;
+	border: 3px double darkgray;
+	background-color : white;
+	color: black;
+	display: block;
+}
+
+#menu ul li a:hover {
+	background-color: #C6C6C6;
+	border-color: white;
+	color: #BD5C24;
+}
+
+#lists li, table {
+	font-family: Semplicita, arial, sans-serif;
+}
+
+#header1 {
+	clear: both;
+	padding-bottom: 2em;
+	
+}
+
+#header1 p {
+	float: right;
+	text-align: right;
+	display: inline-block;
+	padding-right: 1em;
+}
+
+#header2 {
+	border-bottom: 2px inset lightgray;
+	background-color: tan;
+	/*<a href="https://ko.depositphotos.com/category/education.html">태양은 빛나고 고 목재 표면 빈 오래 된 나무로 되는 갑판에 그림자를 만들어, - ko.depositphotos.com</a>*/
+	background-image: url("images/background_index.jpg");
+	background-size: cover;
+		
+}
+.welcome{
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	
+}
+#banner {
+	text-decoration: none;
+}
+#h1 {
+	font-weight: bold;
+	font-size: 72px;
+	padding-top: 1em;
+	padding-left: .5em;
+	margin: 0 auto;
+	color: white;
+	text-decoration: none;
+}
+
+#athc {
+	padding-top: 2.5em;
+	padding-left: 2.5em;
+}
+
+article {
+	max-width: 1220px;
+	margin: 0 auto;
+}
+
+#clicks {
+	padding-top: 1em;
+	padding-left: 2.5em;
+}
+
+#section6 {
+	padding-bottom: 5em;
+}
+
+
+header {
+	padding-left : .5em;
+	padding-top : .5em;
+	padding-bottom: .5em;
+}
+
+.button {
+	text-decoration: none;
+	padding: 0.2em 0.6em;
+	border: 3px double white;
+	background-color: tan;
+	color: black;
+}
+
+img { 
+	max-width: 100%;
+	text-align: justify;	
+}
+
+.sns {
+	float: right;
+	text-align: right;
+	width: 1.5em;
+	margin: 0 .5em 0.2em;
+	padding-top: .8em;
+}
+
+#icon2 {
+	padding-right: 1em;
+}
+	
+.mainimg {
+	float: right;
+	padding-top : 6.5em;
+	padding-right: 3em;
+	margin: 1em 1em 0 1em;
+	max-width: 35%;
+}
+
+#section1, #section2, #section3, #section4, #section5, #section6 {
+	float: left;
+	width: 45%;
+	text-align: center;
+	margin: 1em 1em 1em 1em;
+}
+
+
+
+footer {
+	border-top: 4px inset lightgray;
+	border-top-style: double;
+	clear: both;
+	background-color: #F6F6F6; 
+	font-size: 12px;
+}
+
+footer p {
+	display: inline-block; width: 33%;
+}
+
+footer p:first-child {
+	float: left;
+}
+footer p:nth-child(2) {
+	text-align: center;
+}
+footer p:last-child {
+	float: right;
+	text-align: right
+}
+
+  
+  
+ /*product.php*/
+ #bodypro {
+		width: 100%;
+		height: 300px;
+		background-image: url("images/background1_product.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+  .h1 {
+	font-size:75px;
+	text-align:center;
+	color: white;
+	margin-bottom: .5em;
+}
+	
+#eat p {
+	font-size:21px;
+	text-align:center;
+	color: white;
+}
+
+#eatdrink, #drink {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+#drink {
+	clear: both;
+	float: none;
+	border-top: 10px double white;
+	border-bottom: 10px double white;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	background-color: tan;
+}
+
+.brunchy {
+	font-size: 55px;
+	color: white;
+}
+
+#drinks h2 {
+	margin: 0;
+}	
+
+#sofu {
+	padding-bottom: .3em;
+}
+#dhffu {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+#breakfast {
+	float: left;
+	margin: auto;
+	padding-left: 5em;
+	padding-bottom: 7em;
+}
+
+#lunch {
+	float: right;
+	margin: auto;
+	padding-right: 5em;
+	padding-bottom: 7em;
+}
+
+#side, #side2 {
+	clear:both;
+	padding-top: 7.1em;
+}	
+
+.lists {
+	
+	font-size: 17px;
+	text-align:left;
+}
+
+.price {
+	float: right;
+}
+
+#olp {
+	list-style: upper-roman;
+}
+
+#widthnot25 {
+	float:right;
+	border: 4px double black;
+	border-radius: 10px;
+	margin-top: 5em;
+	padding-top: 0;
+	padding-right: 1.5em;
+	box-shadow: 1px 1px 1px darkgray;
+	background-color: white;
+}
+#width25 {
+	width:25%;
+	float:right;
+	border: 1px solid white;
+}
+
+#sofufk {
+	margin-top: 0;
+	color: tan;
+}
+
+#soflwk {
+	margin-top: 2.3em;
+}
+
+#newlist1 {
+	padding-left : 13em;
+	padding-right: 13em;
+	font-size: 22px;
+	list-style: none;
+}
+
+#hours {
+	padding-top: 5em;
+	
+}
+
+#hours .brunchy {
+	padding-bottom: 1.5em;
+}
+
+#lastp {	
+	clear: both;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+#tablesp {
+	margin: auto;
+	font-size:25px;
+	border: 3px double white;
+	margin-bottom: 15em;
+	display: table;
+	border-spacing: 5px;
+	background-color: tan;
+
+}
+
+#tablesp th {
+	text-align: left;
+	padding-right: 2em;
+	border-bottom: 1px solid white;
+}
+
+#tablesp td {
+	text-align: right;
+	border-bottom: 1px solid white;
+}
+
+#tablesp th, #tablesp td {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.teehee {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	background-color: white;
+}
+.teetee {
+	padding-bottom: 1.5em;
+	border-bottom: none;
+}
+	
+	
+ /*about.php*/	
+dl {
+	font-style: italic;
+	font-size: 11px;
+}
+  dt {
+	clear: both;
+	float: left;
+    font-weight: bold;
+    color: black;
+	    width: 43%;
+  }
+  dt::after {
+    content: " : "; 
+  }
+  dd {
+	width: 55%;
+	margin-left: 40%;
+	padding-left: 1em;
+  }
+  
+ #me {
+	width: 18%;
+	float: right;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+	margin-right: 2em;
+	border: 20px double white;
+	background-color: #D8D9DD;
+	border-radius: 15px;
+}
+
+#resume {
+	background-color : #D8D9DD;
+}
+
+#resume ul{
+	list-style: square;
+}
+	
+
+#floatr1, #floatr2, #floatr3, #floatr4, #floatr5, #floatr6, #floatri1, #floatri2, #floatri3, #floatri4, #floatri5, #floatri6 {
+	float: right;
+	text-align: right;
+	
+}
+
+#we, #co, #ed, #li, #la, #si {
+	width:70%;
+	float: left;
+	margin: auto;
+}
+
+.h2 {
+	border-bottom: 1px solid black;
+	font-size: 25px;
+}
+.h3{
+	font-size:18px;
+}
+.h4 {
+	font-family: Italianno, arial, sans-serif;
+	font-weight: normal;
+	font-size: 17px;
+}
+
+#right {
+	float: right;
+	margin-right: 5em;
+	padding-left: 1em;
+	margin-top: 2em;
+	text-align: left;
+	width: 18%;
+	border-left: 1px solid black;
+	font-size: 12px;
+}
+#si {
+	padding-bottom: 10em;
+}
+
+#timetable {
+	border-top: 5px double white;
+	clear: both;
+	text-align: center;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	
+}
+
+#table {
+	display: table;
+	margin: auto;
+	border: 1px solid black;
+	width: 80%;
+    height: 200px;
+	background-color: white;
+}
+
+#table th, #table td {
+	font-family: arial, italiana, sans-serif;
+	border: 1px solid black;
+}
+
+.th {
+	width: 3%;
+}
+
+#table .hidden {
+	border: none;
+}
+#wnfdlwk {
+	width: 1%;
+}
+
+.h1a {
+	font-family: florsn, italian, sans-serif;
+	margin-top: 0;
+	padding-top: 1.5em;
+	font-size : 70px;
+	text-align: center;
+}
+
+#mailto {
+	text-decoration: none;
+	color: black;
+}
+
+ /*about.php*/	
+input[type=text], input[type=email], input[type=date], select, textarea {
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  padding: 13px;
+  border: 1px solid #D8D9DD;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.left {
+	
+	float :left;
+	width: 43%;
+	margin: auto;
+	margin-left: 1em;
+}
+
+.right {
+	float: right;
+	width: 43%;
+	margin: auto;
+	margin-right:1em;
+}
+#bottomtop, #bottom {
+	clear:both;
+	margin: auto;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+#toptoptop	{
+	clear:both;
+	margin: auto;
+	margin-left:1em;
+	margin-right:1em;
+	background-color: pink;
+}
+
+#receipttop	{
+	clear:both;
+	margin: auto;
+	margin-left:3em;
+	margin-right:3em;
+	background-color: #E6E6FA;
+}
+
+#bodyb .receipttop	{
+	clear:both;
+	margin: auto;
+	margin-left:3em;
+	margin-right:3em;
+	background-color: #E6E6FA;
+}
+
+#receiptsemp {
+	font-family: Semplicita, arial, sans-serif;
+	margin-left: 3em;
+	margin-right: 3em;
+	padding-bottom: 1em;
+}
+
+.buttons {
+	margin-left: 1.2em;
+	margin-bottom: 2em;
+	
+}
+
+#h2b {
+	margin-left: 1em;
+	margin-top: 1em;
+	font-size: 50px;
+	font-family: Semplicita, arial, sans-serif;
+}
+
+#semp {
+	font-family: Semplicita, arial, sans-serif;
+	margin-left: 3em;
+	padding-bottom: 1em;
+}
+
+fieldset {
+	border-color: tan;
+}
+
+legend {
+	font-weight: bold;
+}
+
+#bodyb {
+	background-color: #FAF4C0;
+}
+
+ /*enquire.php*/	
+#oth {
+	width:70%;
+}
+.buttonse {
+	margin-bottom: 2em;	
+}
+#bodye {
+	background-color: #D9E5FF;
+}
+
+ /*enhancements.php*/	
+
+#olen li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.h1en {
+	margin-left: 1em;
+	font-size: 30px;
+}
